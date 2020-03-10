@@ -1,0 +1,33 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+#date {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    color: red;
+}
+
+#clock {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    color: green;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
