@@ -1,10 +1,10 @@
 function showDate() {
     var today = new Date();
-    var m = String(today.getMonth() + 1).padStart(2, '0');
-    var d = String(today.getDate()).padStart(2, '0')
-    var y = today.getFullYear();
+    var months = String(today.getMonth() + 1).padStart(2, '0');
+    var days = String(today.getDate()).padStart(2, '0')
+    var years = today.getFullYear();
 
-    today = `${m} / ${d} / ${y}`;
+    today = `${months} / ${days} / ${years}`;
     document.getElementById('date').innerHTML = today;
 
 }

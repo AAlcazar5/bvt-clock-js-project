@@ -6,6 +6,35 @@ body{
     background: #000;
 }
 
+.header{
+    color: blue;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
 #date {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 5rem;
@@ -18,16 +47,3 @@ body{
     color: green;
 }
 
-.container {
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-
-}
-
-
-.container2 {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-}
